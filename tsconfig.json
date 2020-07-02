@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "declaration": false,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "outDir": "./node_modules/dist",
+        "baseUrl": ".",
+        "types": [
+            "jasmine",
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "**/*.ts",
+        "**/*.d.ts",
+        "**/*.json"
+    ]
+}
+
